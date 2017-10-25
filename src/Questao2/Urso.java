@@ -1,18 +1,9 @@
 package Questao2;
 
-public class Urso extends Mamifero{
-    private String alimento;
-
-    public String getAlimento() {
-        return alimento;
-    }
-
-    public void setAlimento(String alimento) {
-        this.alimento = alimento;
-    }
+public class Urso extends Mamifero{  
     
     public Urso(){
-        super.setCor("Castanho");
-        this.alimento = "Mel";
+        super.alteraCor("Castanho");
+        super.alteraAlimento("Mel");
     }
 }
